@@ -28,19 +28,7 @@ public class VehiclePositionController {
 
 	@Autowired
 	private VehiclePositionService postionService;
-	
-	/**
-	 * 
-	 * @return
-	 */
-	@RequestMapping("/get")
-	public VehiclePosition get6() {		
-		VehiclePosition v =new VehiclePosition();
-		v.setHeading(1);
-		v.setSession("111");
-		return v;
-	}
-	
+		
 
 	/**
 	 * insert the json data 
