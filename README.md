@@ -8,7 +8,7 @@ Installation
 
 Uploading data
 
-   url -X POST -H 'secret_key: bmw' -F "file=@//home/lucy/tools/data.csv" -i http://192.168.1.101:8080/vehicle/fileUpload
-   change 192.168.1.101 to your server IP.
+        url -X POST -H 'secret_key: bmw' -F "file=@//home/lucy/tools/data.csv" -i http://192.168.1.101:8080/vehicle/fileUpload
+        change 192.168.1.101 to your server IP.
    
 
