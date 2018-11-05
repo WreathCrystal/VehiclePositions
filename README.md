@@ -2,7 +2,7 @@
 
 Installation
 
-   1)  downlaod source from 
+   1)  downlaod source from https://github.com/WreathCrystal/VehiclePositions.git
    2)  mvn clean install
    3)  java -jar bmw_test-0.0.1-SNAPSHOT.jar
 
