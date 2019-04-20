@@ -25,7 +25,7 @@ public class Csv2VehiclePositions {
 	 * @param file
 	 * @throws IOException
 	 */
-	public void csv2VehiclePostion(InputStream file) throws IOException {
+	public void csv2VehiclePosition(InputStream file) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(file));
 		String str = null;
 		ConcurrentHashMap<String, ConcurrentHashMap<Integer, VehiclePosition>> dataMap = PositionStore.positionsMap;
