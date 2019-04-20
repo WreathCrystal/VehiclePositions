@@ -86,7 +86,7 @@ public class VehiclePositionController {
 	public String upload(@RequestParam("file") MultipartFile file) throws IOException {
 		String fileName = null;
 		Csv2VehiclePositions csv2map = new Csv2VehiclePositions();
-		csv2map.csv2VehiclePostion(file.getInputStream());
+		csv2map.csv2VehiclePosition(file.getInputStream());
 		return "upload successfully!";
 	}
 }
